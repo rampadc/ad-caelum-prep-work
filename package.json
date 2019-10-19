@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "bottleneck": "^2.19.5",
-    "request": "^2.88.0"
+    "mongodb": "^3.3.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   }
 }

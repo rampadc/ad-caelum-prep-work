@@ -874,6 +874,8 @@ client.connect(err => {
               satelliteId: result["satelliteId"],
               name: result["name"],
               lines: [result["line1"], result["line2"]],
+              norad: norad,
+              cospar: cospar,
               dataUrl: `${data_url}/${cospar}`
             };
             collection.insertOne(doc, {}, function(err, result) {
